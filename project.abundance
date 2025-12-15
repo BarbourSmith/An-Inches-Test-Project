@@ -4,13 +4,6 @@
   "y": 0,
   "uniqueID": "47fae021-4414-49b6-9571-f45afe86a226",
   "name": "An-Inches-Test-Project",
-  "ioValues": [
-    {
-      "name": "Test",
-      "ioValue": 20,
-      "currentEquation": "20"
-    }
-  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -27,7 +20,7 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 20
+          "ioValue": 10
         },
         {
           "name": "y length",
@@ -93,14 +86,6 @@
           "ioValue": null
         }
       ]
-    },
-    {
-      "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.40111420612813375,
-      "uniqueID": "id-60",
-      "name": "Test",
-      "type": "number"
     }
   ],
   "allConnectors": [
@@ -128,11 +113,6 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-36",
       "ap2ID": "5034c013-e812-47b4-bae7-b79463035247"
-    },
-    {
-      "ap2Name": "x length",
-      "ap1ID": "id-60",
-      "ap2ID": "id-20"
     }
   ],
   "unitsKey": "Inches",
