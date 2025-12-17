@@ -86,87 +86,6 @@
           "ioValue": null
         }
       ]
-    },
-    {
-      "atomType": "Rotate",
-      "x": 0.4393939393939394,
-      "y": 0.8105849582172702,
-      "uniqueID": "id-93",
-      "ioValues": [
-        {
-          "name": "x-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 45
-        }
-      ]
-    },
-    {
-      "atomType": "Molecule",
-      "x": 0.28439153439153436,
-      "y": 0.807799442896936,
-      "uniqueID": "id-57",
-      "name": "Import Test",
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-59"
-        },
-        {
-          "atomType": "Import",
-          "x": 0.19856459330143542,
-          "y": 0.6295264623955432,
-          "uniqueID": "id-61",
-          "fileName": "Belt End.step",
-          "name": "Import",
-          "type": "STEP",
-          "repoOwner": "BarbourSmith",
-          "repoName": "An-Inches-Test-Project",
-          "SVGwidth": 10
-        },
-        {
-          "atomType": "Move",
-          "x": 0.5701754385964912,
-          "y": 0.5292479108635098,
-          "uniqueID": "id-87",
-          "ioValues": [
-            {
-              "name": "xDist",
-              "ioValue": 0
-            },
-            {
-              "name": "yDist",
-              "ioValue": 0
-            },
-            {
-              "name": "zDist",
-              "ioValue": 10
-            }
-          ]
-        }
-      ],
-      "allConnectors": [
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-61",
-          "ap2ID": "id-87"
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-87",
-          "ap2ID": "id-59"
-        }
-      ],
-      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
@@ -194,11 +113,6 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-36",
       "ap2ID": "5034c013-e812-47b4-bae7-b79463035247"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-57",
-      "ap2ID": "id-93"
     }
   ],
   "unitsKey": "Inches",
