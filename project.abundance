@@ -86,6 +86,36 @@
           "ioValue": null
         }
       ]
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.28439153439153436,
+      "y": 0.807799442896936,
+      "uniqueID": "id-57",
+      "name": "Import Test",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-59"
+        },
+        {
+          "atomType": "Import",
+          "x": 0.19246031746031744,
+          "y": 0.6183844011142061,
+          "uniqueID": "id-61",
+          "fileName": "Belt End.step",
+          "name": "Import",
+          "type": "STEP",
+          "repoOwner": "BarbourSmith",
+          "repoName": "An-Inches-Test-Project",
+          "SVGwidth": 10
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
