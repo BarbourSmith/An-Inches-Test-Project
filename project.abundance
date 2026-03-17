@@ -46,15 +46,14 @@
         },
         {
           "name": "height",
-          "ioValue": 1,
-          "currentEquation": "1"
+          "ioValue": 1
         }
       ]
     },
     {
       "atomType": "Gcode",
-      "x": 0.7473544973544973,
-      "y": 0.6935933147632313,
+      "x": 0.7394179894179894,
+      "y": 0.7214484679665739,
       "uniqueID": "id-28",
       "ioValues": [
         {
@@ -94,13 +93,11 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 8,
-          "currentEquation": "8"
+          "ioValue": 8
         },
         {
           "name": "y length",
-          "ioValue": 8,
-          "currentEquation": "8"
+          "ioValue": 8
         }
       ]
     },
@@ -140,8 +137,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 0.5,
-          "currentEquation": ".5"
+          "ioValue": 0.5
         }
       ]
     },
