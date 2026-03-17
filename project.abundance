@@ -169,11 +169,6 @@
       "ap2ID": "id-24"
     },
     {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-24",
-      "ap2ID": "5034c013-e812-47b4-bae7-b79463035247"
-    },
-    {
       "ap2Name": "geometry1",
       "ap1ID": "id-24",
       "ap2ID": "id-69"
@@ -197,6 +192,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-69",
       "ap2ID": "id-28"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-69",
+      "ap2ID": "5034c013-e812-47b4-bae7-b79463035247"
     }
   ],
   "unitsKey": "Inches",
