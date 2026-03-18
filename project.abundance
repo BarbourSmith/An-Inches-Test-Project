@@ -52,8 +52,8 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.7394179894179894,
-      "y": 0.7214484679665739,
+      "x": 0.8201058201058202,
+      "y": 0.7103064066852367,
       "uniqueID": "id-28",
       "ioValues": [
         {
@@ -156,6 +156,32 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.7056878306878307,
+      "y": 0.7381615598885795,
+      "uniqueID": "id-99",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": -10,
+          "currentEquation": "-10"
+        },
+        {
+          "name": "yDist",
+          "ioValue": -10,
+          "currentEquation": "-10"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -185,14 +211,19 @@
       "ap2ID": "id-69"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-69",
-      "ap2ID": "id-28"
-    },
-    {
       "ap2Name": "number or geometry",
       "ap1ID": "id-69",
       "ap2ID": "5034c013-e812-47b4-bae7-b79463035247"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-69",
+      "ap2ID": "id-99"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-99",
+      "ap2ID": "id-28"
     }
   ],
   "unitsKey": "Inches",
