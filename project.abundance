@@ -8,7 +8,7 @@
   "allAtoms": [
     {
       "atomType": "Output",
-      "x": 0.98,
+      "x": 1,
       "y": 0.5,
       "uniqueID": "5034c013-e812-47b4-bae7-b79463035247",
       "ioValues": [
@@ -19,9 +19,39 @@
       ]
     },
     {
+      "atomType": "Export",
+      "x": 0.5,
+      "y": 0.3,
+      "uniqueID": "id-134",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "An-Inches-Test-Project",
+          "currentEquation": "An-Inches-Test-Project"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "An-Inches-Test-Project"
+    },
+    {
       "atomType": "Rectangle",
-      "x": 0.1455026455026455,
-      "y": 0.4345403899721449,
+      "x": 0.2,
+      "y": 0.4,
       "uniqueID": "id-20",
       "ioValues": [
         {
@@ -36,8 +66,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.39219576719576715,
-      "y": 0.42061281337047357,
+      "x": 0.4,
+      "y": 0.4,
       "uniqueID": "id-24",
       "ioValues": [
         {
@@ -46,14 +76,15 @@
         },
         {
           "name": "height",
-          "ioValue": 1
+          "ioValue": 10,
+          "currentEquation": "10"
         }
       ]
     },
     {
       "atomType": "Gcode",
-      "x": 0.8201058201058202,
-      "y": 0.7103064066852367,
+      "x": 0.8,
+      "y": 0.7,
       "uniqueID": "id-28",
       "ioValues": [
         {
@@ -87,8 +118,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.34788359788359785,
-      "y": 0.883008356545961,
+      "x": 0.3,
+      "y": 0.9,
       "uniqueID": "id-55",
       "ioValues": [
         {
@@ -103,8 +134,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.4478835978835979,
-      "y": 0.883008356545961,
+      "x": 0.4,
+      "y": 0.9,
       "uniqueID": "id-59",
       "ioValues": [
         {
@@ -119,8 +150,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.6038359788359788,
-      "y": 0.7938718662952646,
+      "x": 0.6,
+      "y": 0.8,
       "uniqueID": "id-63",
       "ioValues": [
         {
@@ -143,24 +174,24 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.5740740740740741,
-      "y": 0.5682451253481894,
+      "x": 0.6,
+      "y": 0.6,
       "uniqueID": "id-69",
       "ioValues": [
         {
-          "name": "geometry1",
+          "name": "retain",
           "ioValue": "__GEOMETRY_INPUT__"
         },
         {
-          "name": "geometry2",
+          "name": "remove",
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
     },
     {
       "atomType": "Move",
-      "x": 0.7056878306878307,
-      "y": 0.7381615598885795,
+      "x": 0.7,
+      "y": 0.7,
       "uniqueID": "id-99",
       "ioValues": [
         {
@@ -169,13 +200,11 @@
         },
         {
           "name": "xDist",
-          "ioValue": -10,
-          "currentEquation": "-10"
+          "ioValue": -10
         },
         {
           "name": "yDist",
-          "ioValue": -10,
-          "currentEquation": "-10"
+          "ioValue": -10
         },
         {
           "name": "zDist",
@@ -191,9 +220,14 @@
       "ap2ID": "id-24"
     },
     {
-      "ap2Name": "geometry1",
+      "ap2Name": "retain",
       "ap1ID": "id-24",
       "ap2ID": "id-69"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-24",
+      "ap2ID": "id-134"
     },
     {
       "ap2Name": "geometry",
@@ -206,7 +240,7 @@
       "ap2ID": "id-63"
     },
     {
-      "ap2Name": "geometry2",
+      "ap2Name": "remove",
       "ap1ID": "id-63",
       "ap2ID": "id-69"
     },
