@@ -2,7 +2,7 @@
 
 # An-Inches-Test-Project
 
-![](/project.svg)
+![](/project.png)
 
 
 
